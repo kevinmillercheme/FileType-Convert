@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 350px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+}
+
+.upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    max-width: 25vw;
+    background-color: orange;
+}
+
+.uploadbutton {
+    padding: 10px;
+    margin: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.dropdown {
+    background-color: lightgrey;
+    margin: 20px;
+    cursor: pointer;
+}
+
+option {
+    background-color: red;
+}
+
+option:hover {
+    cursor: pointer;;
+}
+
+.convertbutton {
+    background-color: red;
+    cursor: pointer;
+}
+
+.download {
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+    width: 25vw;
+    margin-left: auto;
+}
+
+.downloadbutton {
+    display: block;
+    background-color: red;
+    cursor: pointer;
+}
+
+.fileP {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
