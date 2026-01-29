@@ -5,77 +5,86 @@ body {
 }
 
 .title {
+    display: flex;
+    flex-direction: row;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 350px;
+    max-width: 700px;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
-    background-color: red;
 }
 
 h4 {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin-top: 10px;
     padding: 10px;
-    background-color: red;
 }
 
 .upload {
     display: flex;
     flex-direction: column;
     justify-content: first baseline;
-    max-width: 25vw;
-    background-color: orange;
+    max-width: 15vw;
 }
 
-.uploadbutton {
+#uploadButton {
     padding: 10px;
-    margin: 20px;
-    background-color: red;
+    margin: 0 40px 0;
     cursor: pointer;
 }
 
-.dropdown {
+.dropDown {
     background-color: lightgrey;
-    margin: 20px;
+    margin: 10px;
     cursor: pointer;
+    text-align: center;
 }
 
 option {
-    background-color: red;
 }
 
 option:hover {
     cursor: pointer;;
 }
 
-.convertbutton {
-    background-color: red;
+.convertButton {
+    padding: 10px;
+    margin: 0 40px 0;
     cursor: pointer;
 }
 
 .download {
     display: flex;
     justify-content: flex-end;
-    background-color: red;
     width: 25vw;
     margin-left: auto;
 }
 
-.downloadbutton {
+.downloadButton {
     display: block;
-    background-color: red;
     cursor: pointer;
+    padding: 10px;
+    margin: 20px;
 }
 
 .fileP {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
-    background-color: red;
+    margin: 5px;
+    padding: 0;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px dashed #aaa; 
+    width: 100%;             
 }

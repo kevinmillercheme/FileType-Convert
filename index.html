@@ -13,20 +13,24 @@
     </div>
     <div class="upload">
         <input type="file" id="fileInput" hidden>
-        <button class="uploadbutton">Upload File</button>
+        <button id="uploadButton">Upload File</button>
         <p id="fileName" class="fileP">No file selected</p>
-        <select class="dropdown">
+        <select class="dropDown">
             <option>--select an option--</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+            <option id="dwg">.DWG</option>
+            <option id="dxf">.DXF</option>
+            <option id="dwf">.DWF</option>
+            <option id="stl">.STL</option>
+            <option id="stp">.STP</option>
+            <option id="svg">.SVG</option>
+            <option id="pdf">.PDF</option>
         </select>
-        <button class="convertbutton">Convert</button>
+        <button class="convertButton">Convert</button>
     </div>
     <div class="download">
-        <button class="downloadbutton">Download File</button>
+        <button class="downloadButton">Download File</button>
     </div>
+    <div class="preview"></div>
+    <script src="index.js"></script>  
 </body>
 </html>
